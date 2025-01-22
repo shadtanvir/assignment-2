@@ -1,0 +1,139 @@
+/* font-family styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* Shared styles */
+
+.flex {
+  display: flex;
+}
+.primary-btn {
+  width: 197px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+}
+.header,
+.banner {
+  max-width: 1160px;
+  margin: 0px auto;
+}
+.section-title {
+  margin-bottom: 24px;
+  font-family: Quicksand;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-subtitle {
+  margin-bottom: 24px;
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Header-section style */
+
+/* navbar style */
+
+.nav-bar {
+  justify-content: space-between;
+}
+.nav-1 {
+  align-items: center;
+  gap: 11px;
+}
+.nav-1 h2 {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+ul {
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Quicksand;
+  color: rgb(254, 163, 1);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.home {
+  font-weight: 700;
+}
+.about {
+  color: rgb(1, 172, 253);
+}
+.facilities {
+  color: rgb(5, 212, 223);
+}
+.admission {
+  color: rgb(93, 88, 239);
+}
+.nav-3 {
+  align-items: center;
+}
+.nav-4 img {
+  width: 24px;
+  height: 16px;
+}
+.nav-4 {
+  align-items: center;
+  display: none;
+}
+
+/* Banner-section style */
+.banner {
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  width: 640px;
+  /* height: 50px; */
+}
+.banner button {
+  background: rgb(17, 17, 17);
+}
+#yellow-title {
+  color: rgb(254, 163, 1);
+}
+#blue-title {
+  color: rgb(1, 172, 253);
+}
