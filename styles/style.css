@@ -313,7 +313,7 @@ li a {
 }
 .ls-date {
   margin-left: 38px;
-  margin-top: -26px;
+  margin-top: -18px;
   color: rgb(255, 255, 255);
   font-family: Raleway;
   font-size: 0.99rem;
@@ -323,12 +323,14 @@ li a {
   text-align: center;
   text-transform: capitalize;
   max-width: 174.51px;
-  height: 47px;
+  height: 50px;
   border-radius: 47.93px;
   border: none;
   background: rgb(60, 216, 232);
 }
 .ls-title {
+  padding-top: 33px;
+  padding-bottom: 43px;
   margin-left: 38px;
   color: rgb(0, 0, 0);
   font-family: Quicksand;
@@ -347,6 +349,7 @@ li a {
   line-height: 28.76px;
   letter-spacing: 0%;
   text-align: left;
+  padding-bottom: 35px;
 }
 .left-story {
   width: 540.27px;
@@ -377,7 +380,7 @@ li a {
   letter-spacing: 0%;
   text-align: center;
   margin-left: 38px;
-  margin-top: -22px;
+  margin-top: -16px;
 }
 .rs {
   display: flex;
@@ -392,6 +395,8 @@ li a {
   line-height: 28.76px;
   letter-spacing: 0%;
   text-align: left;
+  padding-top: 23px;
+  padding-bottom: 33px;
 }
 .right-story {
   display: grid;
