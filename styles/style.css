@@ -42,7 +42,8 @@
 .header,
 .banner,
 .sc-cards,
-.stories {
+.stories,
+.footer {
   max-width: 1160px;
   margin: 0px auto;
 }
@@ -413,6 +414,85 @@ li a {
   margin-top: 80px;
 }
 
+/* Footer-section styles */
+.footer-section {
+  margin-top: 20px;
+  background: rgb(1, 172, 253);
+}
+.footer {
+  padding-top: 140px;
+  padding-bottom: 174px;
+  justify-content: space-between;
+}
+.f1-content img {
+  width: 82px;
+  height: 81px;
+}
+.f1-content {
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 39.51px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.f1-description {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 100;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer1 {
+  max-width: 400px;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+}
+.f2-list {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer2 {
+  flex-direction: column;
+  gap: 32px;
+}
+.footer2 h3 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer3 h3 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer3 {
+  flex-direction: column;
+  gap: 32px;
+}
+
 /* Responsive style */
 @media screen and (max-width: 576px) {
   .header,
@@ -482,5 +562,20 @@ li a {
   }
   .right-story {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Footer-section */
+
+  .footer-section {
+    margin-top: 0px;
+  }
+  .footer {
+    padding: 70px 15px;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .footer1 {
+    width: 100%;
+    height: auto;
   }
 }
