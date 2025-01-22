@@ -43,7 +43,8 @@
 .banner,
 .sc-cards,
 .stories,
-.footer {
+.footer,
+.marquee {
   max-width: 1160px;
   margin: 0px auto;
 }
@@ -149,6 +150,15 @@ li a {
   align-items: center;
   justify-content: center;
   display: none;
+}
+
+.marq {
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(255, 194, 26);
 }
 
 /* Banner-section style */
@@ -498,7 +508,8 @@ li a {
   .header,
   .banner,
   .standard-curriculum,
-  .right-story {
+  .right-story,
+  .marquee {
     margin: 0px 15px;
   }
   /* header-section */
