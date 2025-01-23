@@ -273,6 +273,7 @@ li a {
   color: rgb(135, 0, 255);
 }
 .sc-btn {
+  margin-top: 70px;
   gap: 20px;
   width: 60px;
   height: 60px;
@@ -280,6 +281,12 @@ li a {
   border: none;
   border-radius: 30px;
   background: rgb(254, 163, 1);
+  transition: background 2s ease-in, transform 2s ease-in;
+}
+.sc-btn:hover{
+  background: rgb(24, 249, 242);
+  transform: scale(1.5) translatey(30px);
+
 }
 
 .fa-angle-left,
